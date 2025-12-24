@@ -100,3 +100,11 @@ footer {
     color: #fff;
     margin-top: 40px;
 }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1db954;
+    margin-bottom: 15px;
+}
