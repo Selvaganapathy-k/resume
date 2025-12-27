@@ -1,6 +1,6 @@
-# 📄 Personal Resume & Portfolio
+# 📄 Portfolio
 
-This repository contains my **personal resume and portfolio website**, built to showcase my skills, projects, and learning journey.
+This repository contains my ** portfolio website**, built to showcase my skills, projects, and learning journey.
 
 ---
 
