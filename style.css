@@ -510,6 +510,180 @@ font-weight:600;
 
 }
 
+.project-links{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-top:10px;
+
+}
+
+.project-links .btn{
+
+padding:10px 20px;
+
+margin-right:0;
+
+font-size:14px;
+
+}
+
+/* ===========================
+   CERTIFICATIONS
+=========================== */
+
+.cert-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+}
+
+.cert-card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+padding:35px;
+
+border-radius:20px;
+
+border:1px solid rgba(56,189,248,.35);
+
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+transition:.4s;
+
+text-align:center;
+
+}
+
+.cert-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 20px 40px rgba(37,99,235,.4);
+
+}
+
+.cert-icon{
+
+font-size:42px;
+
+color:#38bdf8;
+
+margin-bottom:15px;
+
+}
+
+.cert-card h3{
+
+font-size:22px;
+
+margin-bottom:8px;
+
+}
+
+.cert-subtitle{
+
+display:inline-block;
+
+padding:6px 18px;
+
+margin-bottom:18px;
+
+border-radius:30px;
+
+background:linear-gradient(90deg,#2563eb,#06b6d4);
+
+font-size:14px;
+
+font-weight:600;
+
+}
+
+.cert-card p{
+
+line-height:1.8;
+
+margin-bottom:18px;
+
+color:#d1d5db;
+
+}
+
+.cert-card .tech-stack{
+
+justify-content:center;
+
+}
+
+/* ===========================
+   ACHIEVEMENT LIST
+=========================== */
+
+.achievement-list{
+
+list-style:none;
+
+max-width:750px;
+
+margin:50px auto 0;
+
+display:flex;
+
+flex-direction:column;
+
+gap:16px;
+
+}
+
+.achievement-list li{
+
+background:rgba(255,255,255,.07);
+
+backdrop-filter:blur(10px);
+
+padding:16px 24px;
+
+border-radius:14px;
+
+font-size:16px;
+
+display:flex;
+
+align-items:center;
+
+gap:14px;
+
+transition:.35s;
+
+}
+
+.achievement-list li:hover{
+
+transform:translateX(8px);
+
+box-shadow:0 12px 30px rgba(37,99,235,.35);
+
+}
+
+.achievement-list li i{
+
+color:#38bdf8;
+
+font-size:18px;
+
+}
+
 /* ===========================
    CONTACT
 =========================== */
